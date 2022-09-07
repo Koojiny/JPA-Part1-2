@@ -22,4 +22,5 @@ public class Member {
 
     @OneToMany(mappedBy = "member") // read only
     private List<Order> orders = new ArrayList<>();
+
 }
