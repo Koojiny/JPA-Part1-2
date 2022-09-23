@@ -66,7 +66,7 @@ public class ItemController {
 
 //        Book book = new Book();
 //        book.setId(form.getId());
-//        book.setName(form.getName());
+//        book.setName(form.getName());이런거
 //        book.setPrice(form.getPrice());
 //        book.setStockQuantity(form.getStockQuantity());
 //        book.setAuthor(form.getAuthor());
