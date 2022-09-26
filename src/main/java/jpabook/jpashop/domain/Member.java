@@ -17,13 +17,13 @@ public class Member {
     @Column(name = "member_id")
     private Long id;
 
-    @NotEmpty
+//    @NotEmpty
     private String name;
 
-    @JsonIgnore
     @Embedded
     private Address address;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "member") // read only
     private List<Order> orders = new ArrayList<>();
 
